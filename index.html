@@ -1,0 +1,315 @@
+<html>
+
+<head>
+    <title>Calendar Event Using HTML and CSS - Easy Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="evo-calendar.min.css">
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1><a href="uesrid.html">Calendar</a>></h1>
+
+    <div class="hero">
+      
+        
+        <div id="calendar"></div>
+
+
+
+    </div>
+
+
+    <script
+     src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+     ></script>
+
+    <script src="evo-calendar.min.js"></script>
+
+    
+    <script>
+          $(document).ready(function() {
+    $('#calendar').evoCalendar({
+        
+        theme:"Midnight Blue",
+        calendarEvents: [
+      {
+        id: 'event1', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2021", // Event date (required)
+        description:"The heart touching greetings will make feel anyone very special.wish your near and dear one with our special greetings.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Pratik Birthday", // Event name (required)
+        date: "January/1/2021", // Event date (required)
+        description:"The heart touching greetings will make feel anyone very special.wish your near and dear one with our special greetings.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },{
+        id: 'event1', // Event's ID (required)
+        name: "PARVATI BIRTHDAY", // Event name (required)
+        date: "January/17/2021", // Event date (required)
+        description:"The heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "MUMMY BIRTHDAY", // Event name (required)
+        date: "January/31/2021", // Event date (required)
+        description:"The heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "NAVYA BIRTHDAY", // Event name (required)
+        date: "January/29/2021", // Event date (required)
+        description:"The heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },{
+        id: 'event1', // Event's ID (required)
+        name: "AJEET BIRTHDAY", // Event name (required)
+        date: "January/26/2021", // Event date (required)
+        description:"The heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event1', // Event's ID (required)
+        name: "Dhrup chacha BIRTHDAY", // Event name (required)
+        date: "January/26/2021", // Event date (required)
+        description:"The heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event2', // Event's ID (required)
+        name: "Maha Shivaratri", // Event name (required)
+        date: "March/11/2021", // Event date (required)
+        description:"Festivial decicated to Lord Shiva.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+
+      {
+        id: 'event2', // Event's ID (required)
+        name: "AMAN BIRTHDAY ", // Event name (required)
+        date: "March/04/2021", // Event date (required)
+        description:"this day my birth on that day i am lots of enjoy and this movement very important days my life a make a lots of happiness  .",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event2', // Event's ID (required)
+        name: "PAPA BIRTHDAY ", // Event name (required)
+        date: "March/01/2021", // Event date (required)
+        description:"this day my birth on that day i am lots of enjoy and this movement very important days my life a make a lots of happiness  .",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event3', // Event's ID (required)
+        name: "Election Day", // Event name (required)
+        date: "April/15/2021", //Date range
+        description:"An election is a way people can choose their candidate or their prefernce in a representative democracy or other formpf government.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event4', // Event's ID (required)
+        name: "Labour's Day", // Event name (required)
+        date: "May/1/2021", // Event date (required)
+        description:"Labour Day is an annual holiday to celebrate the achivement of worker.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event5', // Event's ID (required)
+        name: "World Environment Day", // Event name (required)
+        date: "June/05/2021", // Event date (required)
+        description:"Protection of Environment,protection of the society.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event6', // Event's ID (required)
+        name: "World Population Day", // Event name (required)
+        date: "July/11/2021", // Event date (required)
+        description:"Important of Family Planning.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event6', // Event's ID (required)
+        name: "AAROHI Birthday", // Event name (required)
+        date: "July/30/2021", // Event date (required)
+        description:"The heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event7', // Event's ID (required)
+        name: "Independence Day", // Event name (required)
+        date: "August/15/2021", // Event date (required)
+        description:"Wishing you a happy Independence Day!.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },{
+        id: 'event7', // Event's ID (required)
+        name: "AARTI Birthday", // Event name (required)
+        date: "August/24/2021", // Event date (required)
+        description:"The heart touching day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event7', // Event's ID (required)
+        name: "ANSHUMAN Birthday", // Event name (required)
+        date: "August/16/2021", // Event date (required)
+        description:"The heart touching day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event8', // Event's ID (required)
+        name: "Teacher's Day", // Event name (required)
+        date: "September/05/2021", // Event date (required)
+        description:"Great teacher is the birth anniversary of Dr.Sarvepalli RadhaKrishnan",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event8', // Event's ID (required)
+        name: "Vishwkarma Pooja", // Event name (required)
+        date: "September/17/2021", // Event date (required)
+        description:"worksheep day",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event8', // Event's ID (required)
+        name: "AARADHYA Birthday", // Event name (required)
+        date: "September/28/2021", // Event date (required)
+        description:"The heart touching Day",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+       
+      {
+        id: 'event9', // Event's ID (required)
+        name: "Gandhi Jayanti", // Event name (required)
+        date: "October/02/2021", // Event date (required)
+        description:"Birth anniversary of Mahatma Gandhi.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event9', // Event's ID (required)
+        name: "ANKITA Birthday ", // Event name (required)
+        date: "October/20/2021", // Event date (required)
+        description:"birthday celebtation on that day a lots of happiness movement and lot of enjoy .",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },{
+        id: 'event9', // Event's ID (required)
+        name: "LAXMI Birthday ", // Event name (required)
+        date: "October/25/2021", // Event date (required)
+        description:"birthday celebtation on that day a lots of happiness movement and lot of enjoy .",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event9', // Event's ID (required)
+        name: "MAHI Birthday ", // Event name (required)
+        date: "October/31/2021", // Event date (required)
+        description:"birthday celebtation on that day a lots of happiness movement and lot of enjoy .",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event10', // Event's ID (required)
+        name: "Birthday Uday ", // Event name (required)
+        date: "November/16/2021", // Event date (required)
+        description:"It is very important day and enjoyment day",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event10', // Event's ID (required)
+        name: "AYUSHI BIRTHDAY", // Event name (required)
+        date: "November/07/2021", // Event date (required)
+        description:"BEAUTIFUL day and on this day enjoy great moments",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event11', // Event's ID (required)
+        name: "Chritsmas", // Event name (required)
+        date: " December/25/2021", // Event date (required)
+        description:"Commemoration of the nativity of Jesus.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event11', // Event's ID (required)
+        name: "Rahul Birthday", // Event name (required)
+        date: " December/01/2021", // Event date (required)
+        description:"the heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event11', // Event's ID (required)
+        name: "ANSH Birthday", // Event name (required)
+        date: " December/08/2021", // Event date (required)
+        description:"the heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },{
+        id: 'event11', // Event's ID (required)
+        name: "NIDHI Birthday", // Event name (required)
+        date: " December/20/2021", // Event date (required)
+        description:"the heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        id: 'event11', // Event's ID (required)
+        name: "PARI Birthday", // Event name (required)
+        date: " December/19/2021", // Event date (required)
+        description:"the heart touching Day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },{
+        
+        name: "DIKSHA Birthday", // Event name (required)
+        date: " Feburary/18/2021", // Event date (required)
+        description:"The heart touching day.",
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        name: "Vacation Leave",
+        badge: "02/13 - 02/15", // Event badge (optional)
+        date: ["February/13/2021", "February/15/2021"], // Date range
+        description: "Vacation leave for 3 days.", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+          })
+      })
+
+   </script>
+
+
+   </html> 
+</body>
